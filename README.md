@@ -21,6 +21,7 @@ Directive v-scroll-lock then can be used in any of your Component.
   </div>
 </template>
 ```
-
+## issue
+Support for apple's Safari browser is not yet clear
 ## LICENSE
 MIT
