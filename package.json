@@ -1,12 +1,14 @@
 {
-  "name": "vue-scroll-lock",
+  "name": "vue-dt-scroll-lock",
   "version": "0.1.0",
-  "private": true,
+  "main": "./dist/scroll-lock.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "license": "MIT",
+  "keywords": ["vue", "scroll", "lock", "scroll-lock"],
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11"

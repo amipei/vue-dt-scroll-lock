@@ -1,24 +1,26 @@
-# vue-scroll-lock
+# vue-dt-scroll-lock
+scroll-lock directive for vue.js(2.0)
 
-## Project setup
+## Installation
+NPM(recommend)
 ```
-npm install
+npm install vue-dt-scroll-lock --save
+```
+## Get started
+```
+import Vue from 'vue';
+import vueScrollLock from 'vue-scroll';
+
+Vue use(vueScrollLock);
+```
+Directive v-scroll-lock then can be used in any of your Component.
+```
+<template>
+  <div v-scroll-lock>
+    <p>test</p>
+  </div>
+</template>
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## LICENSE
+MIT
