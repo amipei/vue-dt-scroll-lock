@@ -9,7 +9,7 @@ npm install vue-dt-scroll-lock --save
 ## Get started
 ```
 import Vue from 'vue';
-import vueScrollLock from 'vue-scroll';
+import vueScrollLock from 'vue-dt-scroll-lock';
 
 Vue use(vueScrollLock);
 ```
